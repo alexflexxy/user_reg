@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} dice {% endblock %}
+{% block body_block %}
+<h2>Let's play!</h2>
+<h2>Can you roll above a 4? Click refresh!</h2>
+<div class="dice">
+<h1>Player</h1>
+<img src=" {% static 'reg_app/images/dice6.jpg' %} ">
+</div>
+{% endblock %}
